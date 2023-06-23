@@ -1,0 +1,32 @@
+{
+  "name": "api-breakingnews",
+  "version": "1.0.0",
+  "description": "API for SPA Breaking News",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zntn-bhz/api-breakingnews.git"
+  },
+  "keywords": [],
+  "author": "Zntn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zntn-bhz/api-breakingnews/issues"
+  },
+  "homepage": "https://github.com/zntn-bhz/api-breakingnews#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
