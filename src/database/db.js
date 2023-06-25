@@ -6,10 +6,11 @@ const connectDatabase = () => {
     mongoose
         .connect(
         process.env.MONGODB_URI, 
-        { useNewUrlParser: true, useUnifiedTopology: true }
+        { 
+            useNewUrlParser: true, useUnifiedTopology: true }
         )
         .then(() => console.log('MongoDB Atlas Connected'))
-        .catch((error) => console.log(error))    
+        .catch((err) => console.log(`Error connecting to MongoDB Atlas: ${err}`))    
 }
 
 export default connectDatabase
